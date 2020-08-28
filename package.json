@@ -1,0 +1,37 @@
+{
+  "name": "watchmen",
+  "version": "1.0.0",
+  "description": "efficient rule engine",
+  "main": "src/App.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Insurance-Metrics-Measure-Advisory/watchmen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Insurance-Metrics-Measure-Advisory/watchmen/issues"
+  },
+  "homepage": "https://github.com/Insurance-Metrics-Measure-Advisory/watchmen#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "nyc": "^14.1.1",
+    "ts-loader": "^8.0.3",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.10.4",
+    "@types/cssesc": "^3.0.0",
+    "@types/pino": "^5.8.13",
+    "@types/uuid": "^3.4.6",
+    "cssesc": "^3.0.0",
+    "pino": "^5.13.4",
+    "pino-pretty": "^3.2.1",
+    "typescript": "^3.7.2",
+    "uuid": "^3.3.3",
+    "webpack": "^4.44.1"
+  }
+}
