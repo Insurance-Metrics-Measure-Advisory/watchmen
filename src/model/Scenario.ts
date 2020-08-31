@@ -21,7 +21,7 @@ export class Scenario {
             this.decisions.push(rule.run());
         })
         this.decisions.forEach(decision => {
-            console.log(decision.getAction());
+           decision.handle();
         })
     }
 

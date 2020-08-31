@@ -12,4 +12,8 @@ export class Decision {
         return this.action;
     }
 
+    handle(): void {
+        console.log(this.action);
+    }
+
 }
